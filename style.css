@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+
+#display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 40px;
+  margin-right: 10px;
+  overflow-x: scroll;
+}
+
+#display::-webkit-scrollbar {
+  display: block;
+  height: 3px;
+}
+
+body{
+  height: 100vh;
+  background-color: rgb(32, 32, 32);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  height: 430px;
+  width: 300px;
+  background-color: #1C1C1C;
+  border-radius: 20px;
+  border: 2px solid rgb(141, 141, 141);
+  box-shadow: rgba(129, 129, 129, 0.25) 0px 54px 55px, rgba(245, 245, 245, 0.12)
+   0px -12px 30px, rgba(255, 235, 235, 0.12) 0px 4px 6px, rgba(133, 133, 133, 0.17)
+   0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+.display{
+  background-color: #505050;
+  height: 24%;
+  width: 100%;
+  border-radius: 17px 17px 20px 20px;
+  margin: 0px 0px 2px 0px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons{
+  height: 76%;
+  width: 100%;
+}
+
+.table{
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  height: 58px;
+  width: 68px;
+  background-color: rgb(59, 59, 59);
+  border: 1px solid rgb(59, 59, 59); 
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+button:hover{
+  background-color: rgb(50, 50, 50);
+}
+
+button#equal{
+  height: 125px;
+  background-color: peru;
+}
+
+
+
+
